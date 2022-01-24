@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+
+ul,
+li,
+a {
+  display: inline;
+  margin: 0 auto;
+  padding: 0;
+}
+form {
+  text-align: center;
+  display: inline;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+div {
+  text-align: center;
+  display: inline;
+  margin: 0 auto;
+  padding: 20px;
+}
