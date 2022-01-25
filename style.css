@@ -1,16 +1,48 @@
-body {
-  font-family: sans-serif;
-}
 ul {
   list-style-type: none;
 }
 
+.nav a {
+  color: blue;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.khanimage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 60px;
+}
+img {
+  max-width: 100%;
+}
+.image {
+  flex-basis: 40%;
+}
+
+.text {
+  font-size: 53px;
+  line-height: 54px;
+  font-family: "Source Serif Pro", serif;
+  color: rgb(33, 36, 44);
+
+  font-weight: 600;
+  padding-left: 0px;
+}
+p {
+  float: right;
+  font-size: 20px;
+}
 ul,
 li,
 a {
-  display: inline;
-  margin: 0 auto;
-  padding: 0;
+  font-family: sans-serif;
+  color: blue;
 }
 form {
   text-align: center;
@@ -24,4 +56,15 @@ div {
   display: inline;
   margin: 0 auto;
   padding: 20px;
+}
+h2 {
+  text-align: center;
+  background-color: #f7f5f4;
+  color: rgb(33, 36, 44);
+  font-family: "Source Serif Pro", "Noto Serif", serif;
+  font-weight: 600;
+  line-height: 48px;
+  font-size: 44px;
+  padding: 80px;
+  border-radius: 1% 20%;
 }
